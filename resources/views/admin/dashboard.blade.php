@@ -32,6 +32,7 @@
                     <th>Peso</th>
                     <th>Destino</th>
                     <th>Estado</th>
+                    <th>Receptor</th>
                     <th>Acciones</th>
                 </tr>
                 </thead>
@@ -45,6 +46,7 @@
                         <td>{{ $paquete->weight }}</td>
                         <td>{{ $paquete->destination }}</td>
                         <td>{{ $paquete->status }}</td>
+                        <td>{{ $paquete->recipient_email }}</td>
                         <td>
                             <a href="{{ route('admin.edit', $paquete->id) }}" class="btn btn-warning btn-sm">Editar</a>
                             <form action="{{ route('admin.delete', $paquete->id) }}" method="POST" class="d-inline">

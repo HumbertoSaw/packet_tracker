@@ -28,6 +28,7 @@ document.getElementById('form-search').addEventListener('submit', function(e) {
         document.getElementById('result-weight').textContent = response.weight;
         document.getElementById('result-destination').textContent = response.destination;
         document.getElementById('result-status').textContent = response.status;
+        document.getElementById('result-mail').textContent = response.recipient_email;
 
         document.getElementById('result-search').classList.remove('d-none');
     }).fail(function () {

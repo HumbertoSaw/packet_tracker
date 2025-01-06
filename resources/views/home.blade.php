@@ -34,6 +34,7 @@
                     <p><strong>Peso:</strong> <span id="result-weight"></span> Kg</p>
                     <p><strong>Destino:</strong> <span id="result-destination"></span></p>
                     <p><strong>Estatus:</strong> <span id="result-status"></span></p>
+                    <p><strong>Email receptor:</strong> <span id="result-recipient_email"></span></p>
                 </div>
 
                 <div id="result-search-na" class="border rounded p-4 bg-light d-none">

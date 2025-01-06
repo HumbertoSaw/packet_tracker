@@ -6,6 +6,7 @@
     <title>Actualización del Paquete</title>
 </head>
 <body>
+<h1>Actualización de tu paquete!</h1>
 <p><strong>ID:</strong> {{ $packet->id }}</p>
 <p><strong>Número de Rastreo:</strong> {{ $packet->tracking_number }}</p>
 <p><strong>Descripción:</strong> {{ $packet->description }}</p>

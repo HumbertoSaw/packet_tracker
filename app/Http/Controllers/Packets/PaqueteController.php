@@ -25,6 +25,7 @@ class PaqueteController extends Controller
             'weight' => $packet->weight,
             'destination' => $packet->destination,
             'status' => $packet->status,
+            'recipient_email' => $packet->recipient_email,
         ]);
     }
 }

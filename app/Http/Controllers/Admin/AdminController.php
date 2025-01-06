@@ -40,7 +40,7 @@ class AdminController extends Controller
         if ($packet->recipient_email) {
             Mail::to($packet->recipient_email)->send(new PacketUpdated($packet));
         }
-        
+
         return redirect()->route('admin.dashboard')->with('success', 'Paquete creado exitosamente');
     }
 
