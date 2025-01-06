@@ -13,7 +13,7 @@ document.getElementById('form-search').addEventListener('submit', function(e) {
     document.getElementById('error-message').classList.add('d-none');
     document.getElementById('result-search').classList.add('d-none');
     document.getElementById('result-search-na').classList.add('d-none');
-    
+
     $.ajax({
         url: '/packet/index/' + packetTN,
         type: 'GET',
